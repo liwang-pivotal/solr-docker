@@ -31,6 +31,6 @@ SOLR_OPTS="\$SOLR_OPTS -Dsolr.replication.interval=${SOLR_REPLICATION_INTERVAL:-
 EOF
         ;;
     *)
-        echo "[ERROR] Unknown SOLR_ROLE: $ESGF_SOLR_ROLE" 1>&2
+        echo "[ERROR] Unknown SOLR_ROLE: $SOLR_ROLE" 1>&2
         exit 1
 esac
